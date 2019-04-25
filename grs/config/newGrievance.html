@@ -1,0 +1,41 @@
+<body>
+
+  <form action="../api/user/allGrievance.php" class="form-horizontal row-fluid" name="Category" method="post" >
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" name="read" class="btn">Read All</button>
+    </div>
+  </div>
+  </form>
+
+  <form action="../api/user/readGrievanceUsn.php" class="form-horizontal row-fluid" name="Category" method="post" >
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" name="readsingle" class="btn">read my History</button>
+    </div>
+  </div>
+  </form>
+
+<form action="../api/user/newGrievance.php" class="form-horizontal row-fluid" name="Category" method="post" >
+<div class="control-group">
+  <label class="control-label" for="basicinput">Subject</label>
+  <div class="controls">
+         <input type="text" placeholder="Enter Grevance Subject"  name="subject" class="span8 tip" required>
+  </div>
+</div>
+<div class="control-group">
+  <label class="control-label" for="basicinput">Detailed Description</label>
+  <div class="controls">
+    <textarea class="span8" name="details" rows="5"></textarea>
+  </div>
+</div>
+
+<div class="control-group">
+  <div class="controls">
+    <button type="submit" name="create" class="btn">Create</button>
+  </div>
+</div>
+</form>
+
+
+</body>
